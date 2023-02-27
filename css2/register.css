@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700");
+body {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+}
+.col-md-5{
+  height: auto;
+  background-color: #567DF4;
+}
+.col-md-5 .brand{
+  padding-top: 30px;
+}
+.col-md-5 .brand img{
+  width: 40%;
+  height: auto;
+}
+.col-md-5 .swiper .text{
+  padding-left: 10%;
+  padding-top: 5%;
+}
+.col-md-5 .swiper .text .wel{
+  color: #fff;
+  
+}
+.col-md-5 .swiper .dis{
+  padding-top: 2%;
+  color: #fff;
+  width: 70%;
+}
+
+.col-md-5 .slider .sliderinner img{
+  width: 100%;
+   margin: auto;
+}
+.col-md-5 .swiper .title{
+  margin-top: 2%;
+}
+.col-md-5 .swiper .title img{
+  width: 30%;
+}
+/* .form-area {
+  margin: 40px auto;
+  max-width: 500px;
+} */
+
+.form {
+  width: 70%;
+   margin: auto;
+   padding-top: 70px;
+}
+.form .title{
+  font-size: 36px;
+  font-weight: bold;
+  color: #22215B;
+}
+.form .dis{
+  width: 60%;
+  margin: auto;
+  font-size: 20px;
+  font-weight: bold;
+  color: #7B7F9E;
+}
+.col-md-7 form{
+  width: 70%;
+  margin: auto;
+}
+
+
+
+
+
+.form form label {
+  width: 100%;
+  color: black;
+  font-weight: bold;
+}
+
+.form-input-group label,
+.form-input-checkbox {
+  padding-left: 17px;
+}
+
+.sing-log-wrap .form-input-group input {
+  background: rgba(255, 255, 255, 0.3) none repeat scroll 0 0;
+  margin-top: 10px;
+}
+
+/* .sing-log-wrap .form-input-group input,
+.form-input-group button {
+  border: medium none;
+  border-radius: 20px;
+  color: #222;
+  padding: 9px 17px;
+  width: 50%;
+} */
+
+
+
+.form-input-group label {
+  opacity: 0.8;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
+}
+form .button button{
+  
+    background-color: #567DF4;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: 500;
+    
+    width: 40%;
+    margin-left: auto; margin-right: auto;
+                                        
+}
+
+.col-md-7 form .form-check label a u {
+  color: #567DF4;
+  text-decoration: none;
+  
+}
+/* .form-control{
+  margin: auto;
+  width: 50% !important;
+
+} */
+
+
+
+
+
+@media (max-width: 850px){
+  .form .dis{
+    width: 100%;
+  }
+  form .button button{
+  width: 100%;
+                                        
+}
+.col-md-7 form{
+  width: 100%;
+}
+}

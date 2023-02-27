@@ -1,0 +1,294 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700");
+
+@font-face {
+  font-family: lexend-bold;
+  src: url(../static/Lexend-Bold.ttf);
+}
+@font-face {
+  font-family: lexend-regular;
+  src: url(../static/Lexend-Regular.ttf);
+}
+@font-face {
+  font-family: lexend-medium;
+  src: url(../static/Lexend-Medium.ttf);
+}
+@font-face {
+  font-family: lexend-light;
+  src: url(../static/Lexend-Light.ttf);
+}
+@font-face {
+  font-family: lexend-semibold;
+  src: url(../static/Lexend-SemiBold.ttf);
+}
+
+body {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+}
+.col-md-5{
+  height: 100vh;
+  background-color: #567DF4;
+}
+.col-md-5 .brand{
+  padding-top: 30px;
+}
+.col-md-5 .brand img{
+  width: 40%;
+  height: auto;
+}
+.col-md-5 .swiper .text{
+  padding-left: 10%;
+  padding-top: 5%;
+}
+.col-md-5 .swiper .text .wel{
+  color: #fff;
+  font-family: lexend-light;
+  
+}
+.col-md-5 .swiper .dis{
+  padding-top: 2%;
+  font-family: lexend-medium;
+  color: #fff;
+  width: 80%;
+}
+
+.col-md-5 .slider .sliderinner img{
+  width: 100%;
+   margin: auto;
+}
+.col-md-5 .swiper .title{
+  margin-top: 2%;
+}
+.col-md-5 .swiper .title img{
+  width: 30%;
+}
+/* .form-area {
+  margin: 40px auto;
+  max-width: 500px;
+} */
+
+.form {
+  width: 70%;
+   margin: auto;
+   padding-top: 70px;
+}
+.form .title{
+  font-family: lexend-semibold;
+  font-size: 28px;
+  color: #22215B;
+}
+.form .dis{
+  width: 54%;
+  margin: auto;
+  font-size: 17px;
+  font-family: lexend-regular;
+  
+  color: #7B7F9E;
+}
+.col-md-7 form{
+  width: 70%;
+  margin: auto;
+}
+
+
+
+
+
+.form form label {
+  width: 100%;
+  font-size: 15px;
+  font-family: lexend-regular;
+}
+
+.form-input-group label,
+.form-input-checkbox {
+  padding-left: 17px;
+}
+
+.sing-log-wrap .form-input-group input {
+  background: rgba(255, 255, 255, 0.3) none repeat scroll 0 0;
+  margin-top: 10px;
+}
+
+
+
+input.form-control{
+  
+ 
+  color: #7B7F9E;
+  
+  font-family: lexend-light;
+}
+
+input.form-control:focus
+{
+  box-shadow: none;
+  border: 1px solid #E5E5E5
+}
+
+.form-input-group label {
+  opacity: 0.8;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
+}
+form .button button{
+  
+    background-color: #567DF4;
+    border-radius: 10px;
+    color: #fff; 
+    width: 40%;
+    margin-left: auto;
+     margin-right: auto;
+    font-family: lexend-light;
+    font-size: 16px;                    
+}
+
+.col-md-7 form .form-check label a u {
+  color: #567DF4;
+  font-family: lexend-medium;
+  text-decoration: none;
+  
+}
+.col-md-7 form .form-check label span{
+  color: #999999;
+  font-family: lexend-medium;
+
+}
+
+.col-md-7 form input::placeholder{
+  color: #7B7F9E;
+  font-family: lexend-light;
+}
+.col-md-7 form  .country select{
+  color: #7B7F9E;
+  font-family: lexend-light;
+}
+
+.col-md-7 form  .cursex select{
+  color: #7B7F9E;
+  font-family: lexend-light;
+}
+
+
+.form form .forgot a{
+  color: #567DF4;
+  font-size: 15px;
+  font-family: lexend-regular;
+}
+
+.form form .donot {
+  position: absolute;
+  bottom: 0px;
+  left: 32%;
+}
+.form form .donot p{
+  font-size: 17px;
+  color: #7B7F9E;
+  font-family: lexend-regular; 
+}
+.form form .donot a{
+  font-size: 17px;
+  color: #567DF4;
+  font-family: lexend-bold; 
+}
+.form form .back2 a{
+  font-size: 17px;
+  color: #567DF4;
+  font-family: lexend-regular; 
+}
+
+
+
+.form .nav-tabs {
+    border: none;
+  margin-left: auto;
+  margin-right: auto;
+  }
+  
+  .form .tab-content{
+    margin-top: 30px;
+  }
+  .nav.nav-tabs li a {
+    color: #6979F8;
+    font-family: lexend-regular; 
+    font-size: 17px;
+    letter-spacing: 1px;
+    margin-right: 30px;
+    padding-left: 0;
+    padding-right: 0;
+    text-decoration: none;
+  }
+  
+/* 
+  ///////// tab section   ////////// */
+
+ .nav-tabs .nav-item .nav-link:hover{
+  color: #567DF4;
+}
+.nav-tabs .nav-item .nav-link {
+    background-color: transparent;
+    color: #999999;
+    font-family: lexend-regular;
+   
+    
+  }
+  
+   .nav-tabs .nav-item .nav-link.active {
+    border: none;
+    color: #6979F8;
+    border-bottom: 5px solid #6979F8;
+  }
+  
+
+
+
+  
+
+ .col-md-7 form .cursex{
+  display: flex;
+  }
+  .col-md-7 form .cursex .sex{
+    width: 50%;
+    margin-right: 10%;
+
+  }
+  .col-md-7 form .cursex .cruency{
+    width: 40%;
+
+    
+  }
+
+
+
+@media (max-width: 850px){
+  .form .dis{
+    width: 100%;
+  }
+  form .button button{
+  width: 100%;
+                                        
+}
+.col-md-7 form{
+  width: 100%;
+}
+}
+
+
+
+@media (max-width: 767px){
+  /* .col-md-5{
+    height: auto;
+    background-color: #567DF4;
+  } */
+}
+
+@media (max-width: 1199px){
+  .form form .donot {
+    position: relative;
+    bottom: 0;
+    left: 5%;
+    /* margin-top: 50px; */
+    
+  }
+
+ 
+}
